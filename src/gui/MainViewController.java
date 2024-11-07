@@ -43,7 +43,7 @@ public class MainViewController implements Initializable{
 	}
 
 	@Override
-	public void initialize(URL uri, ResourceBundle rb) {
+	public void initialize(URL url, ResourceBundle rb) {
 	}
 	
 	private synchronized void loadView(String absoluteName) {
@@ -64,5 +64,4 @@ public class MainViewController implements Initializable{
 			Alerts.showAlert("IO Exception", "Error loading view", e.getMessage(), AlertType.ERROR);
 		}
 	}
-
 }
